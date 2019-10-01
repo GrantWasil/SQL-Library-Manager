@@ -4,7 +4,8 @@
   "description": "Project 8 for Treehouse Tech Degree",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/GrantWasil/SQL-Library-Manager#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3",
     "pug": "^2.0.4",
     "sequelize": "^5.19.0",
     "sequelize-cli": "^5.5.1",
